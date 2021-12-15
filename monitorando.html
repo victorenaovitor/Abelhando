@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="navAbe.png" type="image/x-icon">
+    <title>Monitorando</title>
+    <script type= "text/javascript" src="abelhando.js"></script>
+    <style>
+        .direita{margin-left:220px ;}
+
+    </style>
+</head>
+<body background="fundo4.jpg">
+        
+
+         <input type="button" value="&#9668; Voltar" onClick="history.go(-1)">    
+         <div id='area'> </div>
+
+     <div class="container direita">
+        <h1 style ="color:rgb(43, 255, 0)">Monitorando</h1> 
+ 
+      
+        <h2 style ="color:rgb(243, 243, 239)">Nome do apiário:</h2>
+        <input type="text"id="um"></imput><br>
+<br>
+        <h2 style ="color:rgb(243, 243, 239)">Tipo de abelha:</h2> 
+        <input type="text"id="dois"></imput><br>
+<br>
+        <h2 style ="color:rgb(243, 243, 239)">Data em que está senhido colhido:</h2> 
+        <input type="text"id="tres"></imput><br>
+<br>
+        <h2 style ="color:rgb(243, 243, 239)">Indique a colmeia e a quantidade de favos retirados:</h2> 
+        <input type="text"id="quatro"></imput><br>
+<br>
+
+        
+        <button onClick="salvar()"><h2 style="color: green">salvar </button> 
+        </div>
+        <br>
+        <div class="container direita">
+        <button onClick="window.location.href='monitorandodois.html'"><h2 style="color: green">Ver dados </button> 
+        </div>
+        <div id="informacao">
+             
+
+
+                
+        </div>  
+
+</body>
+</html>
